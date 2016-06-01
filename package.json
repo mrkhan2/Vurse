@@ -1,6 +1,6 @@
 {
-  "name": "Kindling",
-  "author": "Futurice",
+  "name": "Vurse",
+  "author": "Coincast",
   "description": "React Native App Starter Kit for Android and iOS",
   "license": "MIT",
   "homepage": "http://getpepperoni.com",
@@ -20,7 +20,7 @@
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "bundle:ios": "node ./node_modules/react-native/local-cli/cli.js bundle --platform ios --entry-file index.ios.js --bundle-output ios/Kindling/main.jsbundle --dev=false --minify --verbose",
+    "bundle:ios": "node ./node_modules/react-native/local-cli/cli.js bundle --platform ios --entry-file index.ios.js --bundle-output ios/Vurse/main.jsbundle --dev=false --minify --verbose",
     "test": "mocha src/**/*.spec.js",
     "test:watch": "chokidar 'src/**/*.js' 'test/**/*.js' -c 'npm test'",
     "coverage": "babel-node node_modules/isparta/bin/isparta cover --i=src/**/*.js --x=src/**/*.spec.js --x=node_modules node_modules/mocha/bin/_mocha -- src/**/*.spec.js",
